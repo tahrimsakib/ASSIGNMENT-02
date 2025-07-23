@@ -34,7 +34,7 @@ nav ul li a {
     font-family: Inter;
 }
 
-#home {
+.home {
     color: rgb(37, 36, 50);
     font-size: 16px;
     font-weight: 700;
@@ -44,4 +44,25 @@ nav ul li a {
     color: rgb(137, 135, 161);
     font-size: 16px;
     font-weight: 400;
+}
+
+.cart {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+    .navbar ul {
+        display: none;
+    }
+
+    .cart {
+        display: block;
+        list-style: none;
+    }
+
+    .cart a {
+        text-decoration: none;
+        color: black;
+    }
 }
