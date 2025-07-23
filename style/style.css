@@ -152,11 +152,18 @@ nav ul li a {
 /* Flower & Plants Lover */
 .flower {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 60px;
 }
-
-.flower-text {
-    
+.flower-text{
+    text-align: start;
+}
+.flower-text ul li {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
 }
 
 
