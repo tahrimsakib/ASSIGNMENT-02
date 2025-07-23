@@ -72,13 +72,20 @@ nav ul li a {
 /* banner  */
 
 .banner {
-    border: 1px solid;
 
 
     display: flex;
     justify-content: end;
     align-items: end;
     margin-top: 120px;
+}
+
+.banner-text {
+    max-width: 50%;
+}
+
+.banner-img {
+    max-width: 100%;
 }
 
 .banner-text h1 {
@@ -150,21 +157,60 @@ nav ul li a {
 }
 
 /* Flower & Plants Lover */
+.flower-img-container {
+    position: relative;
+
+}
+
+.trusted-badge {
+    width: 286px;
+    position: absolute;
+    top: -150px;
+    left: 350px;
+
+
+    filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
+
+}
+
 .flower {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    gap: 70px;
+    margin-top: 200px;
 }
-.flower-text{
+
+.flower-text {
+
     text-align: start;
 }
+
 .flower-text ul li {
     font-size: 22px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 20px;
 }
+
+/* Latest  Deals */
+.deals{
+    text-align: center;
+}
+.deals h1{
+    margin-bottom: 16px;
+}
+.deals h1 span{
+    color:rgb(233, 90, 8);
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -189,9 +235,25 @@ nav ul li a {
         flex-direction: column-reverse;
     }
 
+    .banner-text {
+        max-width: none;
+    }
+
+    .banner-img {
+        max-width: none;
+    }
+
     /* card */
 
     .card-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Flower & Plants Lover */
+    .flower {
+        flex-direction: column;
+    }
+    .trusted-badge{
+        display: none;
     }
 }
