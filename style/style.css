@@ -121,6 +121,7 @@ nav ul li a {
 }
 
 .card-container {
+    border: 1px solid;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -128,6 +129,8 @@ nav ul li a {
 
 .card {
     text-align: center;
+
+
 }
 
 .card img {
@@ -228,14 +231,16 @@ nav ul li a {
 footer>section>div:nth-child(2) ul li,
 footer>section>div:nth-child(3) ul li {
     list-style: none;
-   
+
+
 }
 
 footer>section>div:nth-child(2) ul li a,
 footer>section>div:nth-child(3) ul li a {
     text-decoration: none;
     color: rgb(137, 135, 161);
-    
+
+
 
 }
 
@@ -243,6 +248,15 @@ footer>section>div:nth-child(3) ul li a {
 
     .navbar ul {
         display: none;
+    }
+
+    .banner-container {
+        max-width: none;
+    }
+
+    .banner-text {
+        max-width: 90% !important;
+        margin: 0 auto;
     }
 
     .cart {
@@ -271,6 +285,10 @@ footer>section>div:nth-child(3) ul li a {
     /* card */
 
     .card-container {
+        /* eita diye check korbo ami   */
+        display: none;
+
+
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -282,4 +300,21 @@ footer>section>div:nth-child(3) ul li a {
     .trusted-badge {
         display: none;
     }
+
+
+
+    /* footer */
+    .footer {
+        display: grid;
+        justify-content: flex-start;
+        gap: 20px;
+        max-width: 80%;
+        gap
+    }
+
+    .footer-item {
+        max-width: 100%;
+    }
+
+
 }
