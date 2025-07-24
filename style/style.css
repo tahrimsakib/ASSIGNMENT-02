@@ -194,25 +194,50 @@ nav ul li a {
 }
 
 /* Latest  Deals */
-.deals{
+.deals {
     text-align: center;
 }
-.deals h1{
+
+.deals h1 {
     margin-bottom: 16px;
 }
-.deals h1 span{
-    color:rgb(233, 90, 8);
+
+.deals h1 span {
+    color: rgb(233, 90, 8);
 }
 
 
 
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-item {
+    max-width: 25%;
+}
+
+.social-media {
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+}
 
 
+footer>section>div:nth-child(2) ul li,
+footer>section>div:nth-child(3) ul li {
+    list-style: none;
+   
+}
 
+footer>section>div:nth-child(2) ul li a,
+footer>section>div:nth-child(3) ul li a {
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+    
 
-
-
-
+}
 
 @media screen and (max-width: 576px) {
 
@@ -253,7 +278,8 @@ nav ul li a {
     .flower {
         flex-direction: column;
     }
-    .trusted-badge{
+
+    .trusted-badge {
         display: none;
     }
 }
