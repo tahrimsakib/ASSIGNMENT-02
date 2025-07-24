@@ -210,6 +210,15 @@ nav ul li a {
 }
 
 
+/* email-section */
+.email-section{
+    background-image: url('../assets/news-letter-bg.png');
+}
+
+
+
+
+
 
 /* footer */
 .footer {
@@ -231,6 +240,7 @@ nav ul li a {
 footer>section>div:nth-child(2) ul li,
 footer>section>div:nth-child(3) ul li {
     list-style: none;
+    margin-bottom: 30px;
 
 
 }
