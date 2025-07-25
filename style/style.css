@@ -263,7 +263,7 @@ nav ul li a {
 
 .head4 {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500 !important;
 }
 
 .head5 {
@@ -281,7 +281,7 @@ nav ul li a {
         url(../assets/deal-zabo.png);
 
     border-radius: 20px;
-    width: 753px;
+    width: 680px;
     height: 423.13px;
     text-align: center;
     align-content: center;
@@ -294,7 +294,7 @@ nav ul li a {
 
 .head-h4 {
     font-size: 28px;
-    font-weight: 400 !important;
+    font-weight: 500 !important;
 }
 
 .white {
@@ -350,7 +350,7 @@ nav ul li a {
     padding: 10px 50px;
     color: white;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 
