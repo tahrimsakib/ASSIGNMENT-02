@@ -237,7 +237,12 @@ nav ul li a {
     border-radius: 20px;
     background-size: cover;
 
-    max-width: 100%;
+
+    width: 366.22px;
+    height: 206px;
+
+
+    /* max-width: 100%; */
 
     text-align: center;
     align-content: center;
@@ -282,6 +287,10 @@ nav ul li a {
 
     width: 753px;
     height: 423.13px;
+
+
+
+
 
     text-align: center;
     align-content: center;
@@ -470,9 +479,32 @@ footer>section>div:nth-child(3) ul li a {
         max-width: 90%;
     }
 
+    /* deal photo */
 
+    .img-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 28px;
+        margin: 0 auto;
+        /* width: 100%;
+        max-width: 100%;
+padding: 30px; */
+    }
 
+    .img-one {
+        width: 480px;
+        height: 230.13px;
+    }
 
+    .img-two {
+        width: 480px;
+        height: 230.13px;
+    }
+
+    .img-three {
+        width: 480px;
+        height: 230.13px;
+    }
 
 
     /* email section */
