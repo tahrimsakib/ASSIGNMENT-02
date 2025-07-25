@@ -165,6 +165,11 @@ nav ul li a {
 
 }
 
+.man-img {
+    width: 540px;
+    height: 597px;
+}
+
 .trusted-badge {
     width: 286px;
     position: absolute;
@@ -461,6 +466,10 @@ footer>section>div:nth-child(3) ul li a {
         display: none;
     }
 
+    .man-img {
+        width: 358px;
+        height: 396px;
+    }
 
 
 
@@ -487,18 +496,18 @@ padding: 30px; */
     }
 
     .img-one {
-        width: 480px;
-        height: 230.13px;
+        width: 361px;
+        height: 177px;
     }
 
     .img-two {
-        width: 480px;
-        height: 230.13px;
+        width: 361px;
+        height: 177px;
     }
 
     .img-three {
-        width: 480px;
-        height: 230.13px;
+        width: 361px;
+        height: 177px;
     }
 
     .head2 {
